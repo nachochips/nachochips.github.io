@@ -13,7 +13,7 @@ description: AI study
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: raw.githubusercontent.com/nachochips/nachochips.github.io/master/images/nachochips%20logo.png
+avatar: https://avatars.githubusercontent.com/u/68362149?s=400&u=7d606af04b395b6f0a910b5851caf6e631c687c8&v=4
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
@@ -53,7 +53,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © 2023 Nachochips
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
