@@ -7,9 +7,9 @@ permalink: /about/
 ### Little about myself 👩🏻‍💻🌍
 
 Greetings! 🌟 
-Allow me to introduce myself – I was born and raised in Brazil 🇧🇷, but my life's journey led me to Korea 🇰🇷 in early 2000.
+Allow me to introduce myself – I was born and raised in Brazil 🇧🇷, but moved to Korea 🇰🇷 in early 2000.
 
-Above all else, I am a proud and loving mother, blessed with the joy of nurturing one adorable bundle of joy 🍼. My little one inspires me every day to be the best version of myself.
+Above all else, I am a mother, blessed with the joy of nurturing one adorable bundle of joy 🍼. My little one inspires me every day to be the best version of myself.
 
 Currently, I'm working in the Office of International Affairs at a university 🎓, where I get to explore the diverse cultures of the world 🌏 and make meaningful opportunities for students.
 
