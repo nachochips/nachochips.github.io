@@ -12,6 +12,13 @@ description: AI study
 # Flags below are optional
 #
 
+# Math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/u/68362149?s=400&u=7d606af04b395b6f0a910b5851caf6e631c687c8&v=4
 
