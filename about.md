@@ -19,4 +19,4 @@ Dreaming big is the foundation of my aspirations ✨, but I understand that grea
 
 ### Contact me
 
-[email@domain.com](mailto:quinha1226@gmail.com)
+[quinha1226@gmail.com](mailto:quinha1226@gmail.com)
