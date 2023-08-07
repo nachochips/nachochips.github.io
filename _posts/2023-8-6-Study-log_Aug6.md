@@ -10,7 +10,7 @@ use_math: true
 comments: true
 ---
 
-## Programmers
+### Programmers
 
 This morning, I solved two problems with Programmers. 
 The first one was a simple question where I had to determine whether the inputted number is odd or even. My initial solution was okay, but then I stumbled upon an incredibly clever and compact code snippet shared by another participant:
@@ -34,7 +34,7 @@ Sometimes, seeing such elegant solutions can make me feel a bit down, but the be
 It's a wonderful opportunity for me to learn and grow. 
 So, I'll stay motivated and keep absorbing new techniques! 🌟
 
-## Sololearn 
+### Sololearn 
 
 Also, I solved one Sololearn Python intermediate course. 
 Learned about list comprehension. 
@@ -57,7 +57,7 @@ print(n_vowels)
 ```
 Chat GPT has been a fantastic coding buddy! 👩‍💻
 
-## Youtube
+### Youtube
 
 I'm also watching a very interesting Youtube Channel named "생활코딩(Life Coding)". 
 I found this channel while looking for some interesting and fun explanation about Machine Learning and this was exactly what I was looking for. 
