@@ -20,6 +20,8 @@ The below picture is the summary of the course (screenshot from the video):
 
 <img src="/docs/assets/summary.png" width="80%" height="80%">
 
+Website of 생활코딩(Life Coding): https://seomal.org/ 
+
 Now that I finished the above course, I want to know the basic math that I need to study AI. 
 
 1. 🎥 Microsoft Lecture - Given by Christopher Bishop the author of Pattern Recognition and Machine Learning, a book that was highly recommended by our professor: https://www.youtube.com/watch?v=EdHqrd1OMvw&list=PLqijQYffqJi9kjaNAVx3pnyetrwaWKtRd&ab_channel=MicrosoftResearch
