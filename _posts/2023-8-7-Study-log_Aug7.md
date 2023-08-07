@@ -17,6 +17,9 @@ Today I started my day tackling one Programmers' problem and  two Sololearn miss
 ### YouTube 
 I finally completed the Machine Learning course on "생활코딩(Life Coding)" YouTube channel. It was good that the lecturer kept the listener motivated by training to think about the applicable real-life problems that can be solved using Machin Learning Techniques. 🧠
 
+The below picture is the summary of the course (screenshot from the video): 
+[summary of the course](docs/assets/summary.png){: width="50%" height="50%"}
+
 Now that I finished the above course, I want to know the basic math that I need to study AI. 
 
 1. 🎥 Microsoft Lecture - Given by Christopher Bishop the author of Pattern Recognition and Machine Learning, a book that was highly recommended by our professor.
