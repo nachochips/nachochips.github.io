@@ -10,14 +10,18 @@ use_math: true
 comments: true
 ---
 
-Today I solved one Programmers' problem and two Sololearn missions. 
+## Today's Coding Journey 🚀
 
-## Youtube
+Today I started my day tackling one Programmers' problem and  two Sololearn missions! 💪
 
-Finally, I finished the Machine Learning course from the Youtube channel "생활코딩(Life Coding)".
-I especially found the following image very helpful. 
+### YouTube 
+I finally completed the Machine Learning course on "생활코딩(Life Coding)" YouTube channel. It was good that the lecturer kept the listener motivated by training to think about the applicable real-life problems that can be solved using Machin Learning Techniques. 🧠
 
-![summary of the course](/docs/assets/summary.png)
+Now that I finished the above course, I want to know the basic math that I need to study AI. 
 
-Now that I finished the above course, I want to know the basic math that I need to study AI. Since I stopped learning math since 
-I highly recommend it!
+1. 🎥 Microsoft Lecture - Given by Christopher Bishop the author of Pattern Recognition and Machine Learning, a book that was highly recommended by our professor.
+[Microsoft Lecture](https://www.youtube.com/watch?v=EdHqrd1OMvw&list=PLqijQYffqJi9kjaNAVx3pnyetrwaWKtRd&ab_channel=MicrosoftResearch) 
+
+2. 🎥 The Essence of Calculus - 3Blue1Brown([3Blue1Brown(https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&ab_channel=3Blue1Brown)]). 
+
+Studying keeps me excited about what tomorrow holds and allows me to live a motivated life! 🌈😊
