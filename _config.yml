@@ -113,3 +113,13 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+#test
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
