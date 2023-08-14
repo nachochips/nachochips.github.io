@@ -14,22 +14,23 @@ comments: true
 I had my second class on Metacode regarding Pix2Pix. 
 Today we learned about Image Data, Input Data, and DataLoader. 
 
-### Image as Data
+## Image as Data
 
 Pooling is another important operation commonly used in image processing and convolutional neural networks (CNNs) for feature extraction and dimensionality reduction. 
 There are two main types of pooling:
 
-| Type    | Features    |
-| :-------- | :------------ |
-| Max Pooling | Not only does it reduces the spatial resolution of the input(image) but also helps retain the most dominant features in a region(i.e. edges or textures) while discarding less relevant information. So, if a feature moves slightly within a region, the pooled value remains the same |
-| Average Pooling | Average pooling is similar to max pooling, but instead of taking the maximum value from each region, it computes the average value. |
+Pooling is another important operation commonly used in image processing and convolutional neural networks (CNNs) for feature extraction and dimensionality reduction. There are two main types of pooling:
 
+| Type          | Features                                                                                                                             |
+| :------------ | :------------------------------------------------------------------------------------------------------------------------------------ |
+| Max Pooling   | Not only does it reduce the spatial resolution of the input (image), but it also helps retain the most dominant features in a region (i.e., edges or textures) while discarding less relevant information. So, if a feature moves slightly within a region, the pooled value remains the same. |
+| Average Pooling | Average pooling is similar to max pooling, but instead of taking the maximum value from each region, it computes the average value.      |
 
-### DataLoader
-#### What is DataLoader and why do we use it?
+## DataLoader
+### What is DataLoader and why do we use it?
 **DataLoader is a utility provided by libraries like PyTorch that helps manage and efficiently load datasets during training and evaluation of models. It is particularly useful when dealing with large datasets that can't fit entirely in memory.** 
 
-##### Parameters of DataLoader
+#### Parameters of DataLoader
 ![image](https://github.com/nachochips/nachochips.github.io/assets/68362149/bf52dea9-e8f2-45ef-99fb-b852e7f758dd)
 
 Although there are several parameterrs in the library, the important parameters are as follows: 
@@ -46,7 +47,7 @@ Although there are several parameterrs in the library, the important parameters 
 
 6) drop_last: If set to **True**, the last mini-batch might be dropped if its size is smaller than batch_size. If you have enough large dataset you can set as **True**, however, in most cases it's safer to set to **False**. This ensures that all available data is utilized for training, even if the last mini-batch is smaller than the batch size. 
 
-##### Workflow when using a 'DataLoader':
+#### Workflow when using a 'DataLoader':
 1) Dataset Creation: You create a custom dataset class that inherits from a library-specific dataset class (e.g., torch.utils.data.Dataset in PyTorch). This class defines how your data is loaded, transformed, and preprocessed.
 
 2) Data Transformation: You define data transformation pipelines using libraries like torchvision (for images) or transforms (for general data).
