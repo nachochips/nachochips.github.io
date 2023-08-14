@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pix2Pix Class Week2_Pytorch Code
+title: Pix2Pix Class Week2_Homework
 tags:
   - studylog
   - Python
