@@ -17,4 +17,9 @@ Today we learned about Image Data, Input Data, and DataLoader.
 
 ### Image as Data
 
-...read more...
+Pooling is another important operation commonly used in image processing and convolutional neural networks (CNNs) for feature extraction and dimensionality reduction. 
+There are two main types of pooling:
+| Type    | Features    |
+| :-------- | :------------ |
+| Max Pooling | Not only does it reduces the spatial resolution of the input(image) but also helps retain the most dominant features in a region(i.e. edges or textures) while discarding less relevant information. So, if a feature moves slightly within a region, the pooled value remains the same |
+| Average Pooling | Average pooling is similar to max pooling, but instead of taking the maximum value from each region, it computes the average value. |
