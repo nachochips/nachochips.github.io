@@ -10,6 +10,7 @@ tags:
 use_math: true
 comments: true
 ---
+**Class file**: [Week 2](https://nachochips.github.io/docs/assets/Week_2%20(1).pdf)
 
 I had my second class on Metacode regarding Pix2Pix. 
 Today we learned about Image Data, Input Data, and DataLoader. 
