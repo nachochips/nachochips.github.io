@@ -13,9 +13,12 @@ comments: true
 
 ## Homework Instructions
 1) Create my own Dataset Class using PyTorch.
+
 2) Load 10 image files
+
 3) Convert RGB to Lab and Lab to RGB
-4) Apply image processessing: Implement and apply various image processing operations to the images. This can include operations like resizing, cropping, flipping, rotating, or any other image transformation that you’re interested in exploring.
+
+4) Apply image processing: Implement and apply various image processing operations to the images. This can include operations like resizing, cropping, flipping, rotating, or any other image transformation that you’re interested in exploring.
 
 ### Necessary Libraries 
 ```python
@@ -144,7 +147,7 @@ for batch in dataloader:
 ### Results 
 ![image](https://github.com/nachochips/nachochips.github.io/assets/68362149/4c99d195-3b45-4feb-b3f0-4d1e912e22ba)
 
-Practicing with my baby's image gives me motivations 🥰👶 
+Practicing with my baby's image gives me motivation 🥰👶 
 
 ## Practicing RGB to Lab 
 The LAB color space is a color representation that separates color information into three components: L (lightness), A (green to red), and B (blue to yellow). It's designed to approximate human perception of color in a more uniform and perceptually meaningful way compared to other color spaces like RGB or CMYK. The LAB color space is often used in fields such as color science, image processing, and computer vision.
@@ -167,8 +170,8 @@ The LAB color space has several advantages:
 
 * Color Correction and Manipulation: LAB is often used for color correction and image manipulation because it separates color and lightness information.
 
-Although I wanted to include the rgb2lab and lab2rgb code in the above code, it kept occurring errors. 
-So, I tried to make a practice code seperately as below. 
+Although I wanted to include the rgb2lab and lab2rgb codes in the above code, it kept occurring errors. 
+So, I tried to make a practice code separately as below. 
 
 ```python
 import numpy as np
