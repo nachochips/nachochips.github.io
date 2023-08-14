@@ -23,8 +23,8 @@ Pooling is another important operation commonly used in image processing and con
 
 | Type          | Features                                                                                                                             |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------ |
-| Max Pooling   | Not only does it reduce the spatial resolution of the input (image), but it also helps retain the most dominant features in a region (i.e., edges or textures) while discarding less relevant information. So, if a feature moves slightly within a region, the pooled value remains the same. |
-| Average Pooling | Average pooling is similar to max pooling, but instead of taking the maximum value from each region, it computes the average value.      |
+| **Max Pooling**   | Not only does it reduce the spatial resolution of the input (image), but it also helps retain the most dominant features in a region (i.e., edges or textures) while discarding less relevant information. So, if a feature moves slightly within a region, the pooled value remains the same. |
+| **Average Pooling** | Average pooling is similar to max pooling, but instead of taking the maximum value from each region, it computes the average value.      |
 
 ## DataLoader
 ### What is DataLoader and why do we use it?
