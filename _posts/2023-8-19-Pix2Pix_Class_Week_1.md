@@ -98,6 +98,16 @@ ReLU is popular in deep learning for a few key reasons:
 
   However, it's important to note that while ReLU addresses the vanishing gradient problem, it can introduce a         different issue known as the "dying ReLU" problem. This occurs when a ReLU neuron always outputs zero due to its     weights being adjusted in a way that only negative values are passed through it. Variations of ReLU, like Leaky      ReLU and Parametric ReLU, have been developed to mitigate this problem while still benefiting from the non-          vanishing gradient property.
 
+   In Leaky ReLU, when the input is negative, the function allows a small, non-zero output. This non-zero output for negative inputs helps prevent the "dying ReLU" problem.
+
+In mathematical terms, the Leaky ReLU function can be defined as:
+
+For x >= 0: f(x) = x
+For x < 0: f(x) = α * x (where α is a small positive constant, usually around 0.01)
+
+<img src="/docs/assets/leakyreLU.png" width="80%" height="80%">
+[Source: (https://medium.com/aaweg-i-nterview/why-leaky-relu-is-less-sensitive-to-initialization-than-relu-activation-function-86c0a79ba425)]
+
 4) Sparsity: ReLU's "turn off" behavior (outputting zero for negative inputs) creates sparsity in the network, meaning fewer neurons are activated. This can lead to more efficient and faster training.
 
 Visual Representation:
