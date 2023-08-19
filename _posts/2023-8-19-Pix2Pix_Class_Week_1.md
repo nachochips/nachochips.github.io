@@ -25,7 +25,7 @@ As a beginner, I'm all ears for your feedback and suggestions. If you notice any
 
 In machine learning, a loss function (also known as a cost function or objective function) is a mathematical function that measures how well a machine learning model's predictions match the actual target values in the training data. The goal of a machine learning model is to minimize this loss function. In simpler terms, the loss function quantifies how "wrong" the model's predictions are.
 
-![image](https://github.com/nachochips/nachochips.github.io/docs/assets/linearlog.png)
+<img src="/docs/assets/linearlog.png" width="80%" height="80%">
 [Source: https://www.analyticsvidhya.com/blog/2020/11/binary-cross-entropy-aka-log-loss-the-cost-function-used-in-logistic-regression/]
 
 In regression tasks (predicting continuous values), a common loss function is the Mean Squared Error (MSE). It calculates the average squared difference between predicted and actual values.
