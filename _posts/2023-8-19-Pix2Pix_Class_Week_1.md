@@ -102,8 +102,9 @@ ReLU is popular in deep learning for a few key reasons:
 
 In mathematical terms, the Leaky ReLU function can be defined as:
 
-For x >= 0: f(x) = x
-For x < 0: f(x) = α * x (where α is a small positive constant, usually around 0.01)
+For $x >= 0: f(x) = x$
+
+For $x < 0: f(x) = α * x$ (where $α$ is a small positive constant, usually around 0.01)
 
 <img src="/docs/assets/leakyreLU.png" width="80%" height="80%">
 [Source: (https://medium.com/aaweg-i-nterview/why-leaky-relu-is-less-sensitive-to-initialization-than-relu-activation-function-86c0a79ba425)]
@@ -115,4 +116,15 @@ Imagine a neuron as a switch that turns on when the input is positive or zero an
 
 In simple terms, ReLU helps neural networks make decisions by considering whether the inputs are positive or negative. If they're positive or neutral (zero), the neuron fires, and if they're negative, the neuron stays quiet.
 
+### 4. Convolution
+In the context of image processing, convolution is used to extract features from an image by applying a filter or a kernel to the image. The kernel is a small matrix of values that is moved over the input image in a sliding manner, and at each position, it performs an element-wise multiplication with the corresponding pixels in the image. The results of these multiplications are summed up, and the sum is placed in the output image at the corresponding position. This process effectively highlights certain patterns or features in the image.
+
+Convolutional neural networks (CNNs) leverage this concept of convolution to automatically learn features from images. The network learns to adjust the values of the kernels during training to recognize different patterns in the input images, making CNNs highly effective for tasks like image classification, object detection, and more.
+
+Two videos on Youtube really helped me to understand this concept that was really difficult to embrace as a beginner in this filed (and mathematics): 
+
+1) Convolutional Neural Networds (CNNs) explained (deeplizard): https://www.youtube.com/watch?v=YRhxdVk_sIs
+2) But what is a convolution? (3Blue1Bronw): https://youtube.com/watch?v=KuXjwB4LzSA
+
+**#Related terms: padding, strides, and multiple channels**
 
