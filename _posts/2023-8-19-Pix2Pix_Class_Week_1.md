@@ -72,18 +72,22 @@ Backpropagation: Learning from feedback to adjust the recipe and bake a better c
 
 ### 3. ReLU
 
-ReLU - Rectified Linear Activation:
-Think of ReLU as a light switch for a neuron in a neural network. It determines whether the neuron should "fire" or not based on the input it receives. Here's how it works:
+Imagine neural networks as a complex network of interconnected neurons, akin to the human brain. Now, think of ReLU (Rectified Linear Activation) as a key player in this intricate web, acting like a switch that decides whether a neuron should light up or remain dormant based on the incoming signals. Let's delve into this concept, shedding light on the mechanics of ReLU.
 
-Input Evaluation: When an input value is passed to a neuron in a neural network, ReLU checks the value:
-If the input is positive or zero, ReLU lets the value pass unchanged.
-If the input is negative, ReLU "turns off" the neuron by setting the output to zero.
-In mathematical terms, the ReLU function can be defined as: f(x) = max(0, x)
+#### The Decision Process:
+When a value enters a neuron within the neural network, ReLU steps in to evaluate it. Here's how the process unfolds:
+
+1) Positive or Zero?: If the input value is positive or zero, ReLU lets it pass through untouched. It's like giving the green light to information flow.
+
+2) Negative?: However, if the input value is negative, ReLU flips the switch and sets the neuron's output to zero. Essentially, it silences the neuron, ensuring it doesn't contribute to the network's decision-making.
+
+Mathematical Magic:
+This process can be translated into mathematical terms using a simple formula: $f(x) = max(0, x)$. In essence, it captures the idea of letting positive values flow freely while blocking negative ones.
 
 <img src="/docs/assets/reLU.png" width="80%" height="80%">
 [Source: https://yeowool0217.tistory.com/502]
 
-Benefits of ReLU:
+#### Benefits of ReLU:
 ReLU is popular in deep learning for a few key reasons:
 
 1) Simplicity: ReLU is a simple function that's computationally efficient to compute.
@@ -92,39 +96,32 @@ ReLU is popular in deep learning for a few key reasons:
 
 3) Avoiding Vanishing Gradient Problem: ReLU helps mitigate the vanishing gradient problem that can occur with other activation functions like sigmoid or tanh. This problem can make training deep networks more challenging.
 
-  The vanishing gradient problem occurs primarily with activation functions that have small derivatives in certain     input ranges. For example, sigmoid and tanh activation functions squash their inputs into a limited range (between   0 and 1 for sigmoid, and between -1 and 1 for tanh). As the inputs move toward the extreme ends of these ranges,     the derivatives become close to zero. This means that when gradients are backpropagated through many layers, they    diminish significantly. Consequently, the early layers of the network receive extremely small updates, which can     slow down or even stall the learning process for those layers.
+4) Sparsity: ReLU's "turn off" behavior (outputting zero for negative inputs) creates sparsity in the network, meaning fewer neurons are activated. This can lead to more efficient and faster training.
 
-  ReLU, on the other hand, doesn't suffer from the vanishing gradient problem to the same extent as sigmoid and tanh   activations. When the input to a ReLU neuron is positive, the derivative is 1 (or simply non-zero), which means      the gradient doesn't vanish. This encourages larger gradients to flow backward during training.
+#### Leaky ReLU: A Repair Mechanism:
+Leaky ReLU offers a remedy to the "dying ReLU(vanishing gradient problem)" concern. If inputs are negative, Leaky ReLU permits a small, non-zero output. This keeps the neuron alive even in the face of negative values.
 
-  However, it's important to note that while ReLU addresses the vanishing gradient problem, it can introduce a         different issue known as the "dying ReLU" problem. This occurs when a ReLU neuron always outputs zero due to its     weights being adjusted in a way that only negative values are passed through it. Variations of ReLU, like Leaky      ReLU and Parametric ReLU, have been developed to mitigate this problem while still benefiting from the non-          vanishing gradient property.
+Mathematically, Leaky ReLU can be defined as:
 
-   In Leaky ReLU, when the input is negative, the function allows a small, non-zero output. This non-zero output for negative inputs helps prevent the "dying ReLU" problem.
-
-In mathematical terms, the Leaky ReLU function can be defined as:
-
-For $x >= 0: f(x) = x$
-
-For $x < 0: f(x) = α * x$ (where $α$ is a small positive constant, usually around 0.01)
+For $x \geq 0$: f(x) = x
+For $x < 0$: f(x) = α * x (where $α$ is a small positive constant, typically around 0.01)
 
 <img src="/docs/assets/leakyreLU.png" width="80%" height="80%">
 [Source: (https://medium.com/aaweg-i-nterview/why-leaky-relu-is-less-sensitive-to-initialization-than-relu-activation-function-86c0a79ba425)]
 
-4) Sparsity: ReLU's "turn off" behavior (outputting zero for negative inputs) creates sparsity in the network, meaning fewer neurons are activated. This can lead to more efficient and faster training.
-
-Visual Representation:
-Imagine a neuron as a switch that turns on when the input is positive or zero and turns off when the input is negative. Visually, this looks like a ramp that starts at zero and goes upwards for positive values.
-
 In simple terms, ReLU helps neural networks make decisions by considering whether the inputs are positive or negative. If they're positive or neutral (zero), the neuron fires, and if they're negative, the neuron stays quiet.
 
 ### 4. Convolution
-In the context of image processing, convolution is used to extract features from an image by applying a filter or a kernel to the image. The kernel is a small matrix of values that is moved over the input image in a sliding manner, and at each position, it performs an element-wise multiplication with the corresponding pixels in the image. The results of these multiplications are summed up, and the sum is placed in the output image at the corresponding position. This process effectively highlights certain patterns or features in the image.
+Imagine an image as a puzzle of pixels, each representing a tiny fragment of the picture. Convolution involves sliding a small grid, called a kernel or filter, over this image. This kernel is like a stencil with numbers on it. As the kernel travels across the image, it multiplies its numbers with the corresponding pixel values beneath it. The magic happens when these multiplied values are added up. This summation is then placed into a new image, creating what's known as a feature map. This process might seem perplexing, but it's actually a way to highlight particular patterns or details within an image.
 
-Convolutional neural networks (CNNs) leverage this concept of convolution to automatically learn features from images. The network learns to adjust the values of the kernels during training to recognize different patterns in the input images, making CNNs highly effective for tasks like image classification, object detection, and more.
+Now, here's where it gets even more intriguing. Convolution isn't just about image manipulation; it's also a fundamental concept behind Convolutional Neural Networks, or CNNs. These networks are like virtual artists, learning to identify distinct shapes, textures, and objects in images. During their training, CNNs adjust the numbers in those kernels, enabling them to recognize various patterns in the images they encounter. This remarkable ability makes CNNs exceptionally powerful for tasks like telling apart different objects in pictures, spotting specific items within larger scenes, and much more.
 
-Two videos on Youtube really helped me to understand this concept that was really difficult to embrace as a beginner in this filed (and mathematics): 
+If you're looking to delve deeper, two YouTube videos were game-changers for me when I was grasping this intricate concept from scratch:
 
-1) Convolutional Neural Networds (CNNs) explained (deeplizard): https://www.youtube.com/watch?v=YRhxdVk_sIs
-2) But what is a convolution? (3Blue1Bronw): https://youtube.com/watch?v=KuXjwB4LzSA
+1) Convolutional Neural Networks (CNNs) Explained (Deeplizard): This video offers a clear breakdown of CNNs and how they utilize convolution for image analysis. Watch it here: Convolutional Neural Networks (CNNs) explained (Deeplizard).
+
+2) But What Is Convolution? (3Blue1Brown): A fantastic video that delves into the heart of convolution, exploring the very essence of this concept. Check it out here: But what is a convolution? (3Blue1Brown).
 
 **#Related terms: padding, strides, and multiple channels**
 
+### 5. Skip Connection
