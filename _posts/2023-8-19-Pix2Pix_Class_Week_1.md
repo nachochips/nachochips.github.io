@@ -125,3 +125,23 @@ If you're looking to delve deeper, two YouTube videos were game-changers for me 
 **#Related terms: padding, strides, and multiple channels**
 
 ### 5. Skip Connection
+Imagine you're trying to build a tower of building blocks to reach a certain height. Each block represents a layer in your neural network. The goal is to build a tall tower (deep network) that can do a specific task, like recognizing cats in images.
+
+1) Building the Tower:
+As you add more blocks (layers) to your tower, it becomes harder to build it straight and reach the desired height (train effectively). This is because, in deep towers, the lower blocks might not get the right instructions from the top layers due to tiny voices (gradients) getting quieter as they go down.
+
+2) Skip Connections - Bridges Between Blocks:
+Now, let's add bridges (skip connections) between some of the blocks. These bridges let you directly connect lower blocks to higher blocks. So, if there's something important in the lower blocks that gets lost as you go up, you can still easily access it through the bridges.
+
+3) Shortcut to the Top:
+With these bridges, you're not only building up from the ground but also jumping up partway using the bridges. It's like having an elevator in your tower. Even if the top layers are giving unclear instructions, you can still bring in good ideas from the bottom layers using the bridges.
+
+4) Easier Tower Building:
+Now, building the tower becomes easier. If you add more layers (blocks) on top, the bridges make sure that the bottom layers still have a say in the tower's construction. This way, the top layers can focus on improving the details without worrying too much about the overall structure.
+
+5) Benefits of Bridges:
+* You can build a taller tower (deeper network) because the bridges help information flow better between layers.
+* The tower gets stronger since lower blocks can directly contribute to the final result.
+* If you're building in a messy area (complex data), the bridges can guide you back to a clearer path.
+
+In short, skip connections (bridges) in neural networks help make training deep networks easier and more effective. They ensure that important information from lower layers can still influence the final outcome, even when you're working with very deep structures. This way, deep networks can learn better and solve complex tasks more accurately.
