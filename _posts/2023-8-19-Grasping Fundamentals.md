@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pix2Pix Class Week 1
+title: Grasping Fundamentals
 tags:
   - studylog
   - Python
